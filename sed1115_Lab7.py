@@ -58,7 +58,7 @@ from servo_translator import translate
 '''
  #UNFINISHED
     
-    if parsed_command[0] == 'MOVE':
+    if parsed_command[0] == 'MOVE': #Should be like M3...?
         # Extract parameters: shoulder, arm, pen
         shoulder_angle = int(parsed_command[1])
         arm_angle = int(parsed_command[2])
